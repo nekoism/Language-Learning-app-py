@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn</title>
+</head>
+  <style>
+    h1 {
+      text-align: center;
+    }
+  </style>
+<body>
+  <h1>Enter the language you would like to learn </h1>
+  <p>{{inc}}</p>
+<!--   action="/greet" will sent the user their -->
+  <form action="/language" method="get">
+    <input autofocus autocomplete="off" name='language' placeholder='Answer' type="text">
+    <input type='submit'>
+  </form>
+  
+<!--   <form method="get" action="/">
+    <input type="submit" placeholder="skip">
+  </form> -->
+  <p> When you enter your language you would be willing to try out you will be </p>
+</body>
+</html>

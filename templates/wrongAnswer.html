@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn</title>
+</head>
+  <style>
+    h1 {
+      text-align: center;
+    }
+    * {
+      background-color: 'red';
+    }
+    
+  </style>
+<body>
+  <h1>Learn Language</h1>
+  <p>It might be hard, but try again</p>
+  <h2>{{languageQuote}}</h2>
+  <p> {{userCheck}}</p>
+<!--   action="/greet" will sent the user their -->
+  <form action="/answer" method="get">
+    <input autofocus autocomplete="off" name='answer' placeholder='Answer' type="text">
+    <input type='submit'>
+  </form>
+  
+<!--   <form method="get" action="/">
+    <input type="submit" placeholder="skip">
+  </form> -->
+</body>
+</html>
